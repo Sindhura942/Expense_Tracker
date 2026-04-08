@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block title %}Privacy Policy — Outflow{% endblock %}
+
+{% block content %}
+
+<section class="policy-section">
+
+    <div class="policy-header">
+        <h1>Privacy Policy</h1>
+        <p>Last updated: April 2026</p>
+    </div>
+
+    <div class="policy-body">
+
+        <h2>1. Data We Collect</h2>
+        <p>When you use Outflow, we collect the following information:</p>
+        <ul>
+            <li><strong>Account information:</strong> your name and email address when you register.</li>
+            <li><strong>Expense data:</strong> amounts, categories, dates, and descriptions you enter.</li>
+            <li><strong>Usage data:</strong> basic technical information such as browser type and pages visited, used to improve the service.</li>
+        </ul>
+
+        <h2>2. How We Use Your Data</h2>
+        <p>Your data is used exclusively to provide and improve the Outflow service:</p>
+        <ul>
+            <li>To display your expense history and summaries.</li>
+            <li>To authenticate your account and keep it secure.</li>
+            <li>To diagnose technical issues and improve app performance.</li>
+        </ul>
+        <p>We do not use your data for advertising or sell it to any third party.</p>
+
+        <h2>3. Data Storage</h2>
+        <p>Your data is stored securely on our servers. We take reasonable technical and organisational measures to protect it against unauthorised access, loss, or disclosure. You are responsible for keeping your account password confidential.</p>
+
+        <h2>4. Third Party Services</h2>
+        <p>Outflow uses the following third-party services that may process limited technical data:</p>
+        <ul>
+            <li><strong>Google Fonts</strong> — to load typefaces used in the interface. Google may log font requests per their own privacy policy.</li>
+        </ul>
+        <p>No financial or personally identifiable data is shared with these services.</p>
+
+        <h2>5. Your Rights</h2>
+        <p>You have the right to:</p>
+        <ul>
+            <li>Access the personal data we hold about you.</li>
+            <li>Request correction of inaccurate data.</li>
+            <li>Delete your account and all associated data at any time.</li>
+        </ul>
+
+        <h2>6. Contact Us</h2>
+        <p>If you have any questions or concerns about this Privacy Policy, please reach out via the contact information provided on our site.</p>
+
+    </div>
+
+    <a href="{{ url_for('landing') }}" class="policy-back">&larr; Back to home</a>
+
+</section>
+
+{% endblock %}
